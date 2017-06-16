@@ -1,0 +1,30 @@
+{
+  "name": "endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rook2pawn/endpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rook2pawn/endpoint/issues"
+  },
+  "homepage": "https://github.com/rook2pawn/endpoint#readme",
+  "dependencies": {
+    "csv-stream": "^0.1.3",
+    "jsonstream": "^1.0.3",
+    "optimist": "^0.6.1",
+    "router-middleware": "^2.2.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "tape": "^4.6.3"
+  }
+}
