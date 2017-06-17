@@ -8,7 +8,7 @@ const lib = require('./lib');
 const app = router();
 const server = http.createServer(app);
 
-app.listen(argv.p, () => {
+server.listen(argv.p, () => {
 
   console.log("Server listening on port " + argv.p);
 })
