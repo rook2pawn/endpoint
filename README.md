@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/rook2pawn/endpoint.svg?branch=master)](https://travis-ci.org/rook2pawn/endpoint)
 
 # install
 
